@@ -3,7 +3,7 @@ import re
 import csv
 
 
-_re_species = re.compile(r">(_R_)?(?P<species>\w+_\w+[ _]\d+)")
+_re_species = re.compile(r">(_R_)?(?P<species>\w+_\w+)[ _]\d+")
 
 
 def run_counting(data_folder, output_file, ext, verbose=False):
